@@ -1,0 +1,162 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+*::after,*::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.padding{
+    padding: 20px;
+}
+
+
+
+body{
+    background-color: black;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 60px;
+    background-color: white;
+}
+
+
+.navbar a{
+    margin: 30px;
+    text-decoration: none;
+    color: black;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 10px;
+    
+}
+
+.navbar .active{
+    background-color: rgb(34, 204, 71);
+    padding: 5px 20px;
+    color: white;
+
+}
+
+.navbar .last{
+    margin-right: 100px;
+}
+
+.hero1{
+    height: 91.5vh;
+    background: url(back.jpg),rgb(28, 100, 82);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-blend-mode: multiply;
+    display: flex;
+    color: rgba(255, 255, 255, 0.705);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.comment{
+    color: white;
+    font-size: 40px;
+    letter-spacing: 8px;
+    margin-bottom: 5px;
+    /* font-weight: 5; */
+}
+
+.tarea{
+
+    background-color: transparent;
+    color: white;
+    border-radius: 10px;
+    border-color: rgba(255, 255, 255, 0.705);
+    margin-bottom: 40px;
+
+}
+
+.tarea::placeholder{
+    color: rgba(255, 255, 255, 0.705);
+}
+
+.submitbtn{
+    border-radius: 5px;
+    background-color: rgb(250, 49, 49);
+    border: none;
+    color: white;
+    width: 300px;
+    padding: 15px;
+}
+
+.submitbtn:hover{
+    background-color: red;
+}
+
+.subhero1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    border-radius: 5px;
+}
+.subhero2{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    border-radius: 5px;
+}
+
+.valid{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    background-color: rgb(34, 204, 71);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+
+}
+
+.fa-check-circle{
+    font-size: 60px;
+}
+
+.remark{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 500px;
+    background-color: white;
+    color: black;
+
+}
+
+.gr{
+    font-size: 40px;
+    padding-top: 20px;
+}
+
+.cc{
+    margin-bottom: 40px;
+}
+
+.grbtn{
+    margin-bottom: 30px;
+    width: 200px;
+}
+
+.disoff{
+    display: none;
+}
